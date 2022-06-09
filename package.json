@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "Ifeanyi Okwuobi <fredrickokwuobi@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start":"node server/index.js",
+    "start:dev": "nodemon server/index.js"
+  },
   "dependencies": {
     "colors": "^1.4.0",
     "cors": "^2.8.5",
